@@ -1,0 +1,44 @@
+.range {
+  padding: 50px 30px;
+
+  &__title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #333;
+    text-align: center;
+  }
+
+  &__text {
+    color: #666;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__card {
+    text-align: center;
+  }
+
+  &__card-img {
+    border-radius: 10px;
+  }
+
+  &__card-text {
+    margin-top: 20px;
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
